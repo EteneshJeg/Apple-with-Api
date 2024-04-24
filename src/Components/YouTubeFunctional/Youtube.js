@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Youtube.css";
 
-const ApiKey = "https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=9&order=date&key=AIzaSyC82KLgE8V5J-d_jVlFd9cVDQQTYCvX96k";
+const ApiKey = process.env.REACT_APP_API_KEY;
 
 
 
